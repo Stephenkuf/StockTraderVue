@@ -1,7 +1,7 @@
 <template>
     <div>
     <single-stock  v-for="(item , i) in stockArray "  :key="i" :item="item"></single-stock>
-   <h1>this works</h1>
+  
     
     </div>
     
